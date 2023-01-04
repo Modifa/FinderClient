@@ -1,0 +1,25 @@
+.Component{
+    content:"-"; 
+    padding: 5px 5px 5px 5px;
+    justify-content: space-between;
+    margin:0 10px 0 0;
+
+
+    }
+#Component
+    p{
+        color: white;
+    }
+
+    
+    Component:first-child {
+        float: right;
+            padding: 5px 5px 5px 5px;
+
+          }
+
+    .Button:before{
+    content:" "; 
+    display:inline-block; 
+    width:32px;
+}
